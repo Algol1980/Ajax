@@ -49,9 +49,9 @@
     $(function() {
       $.ajax({
         url: "http://algol1980.github.io/Ajax/work.html",
-        success: function (){
-          alert("Load was performed")
-        }
+        success: function (data){
+      $(".wrapper").append(data);
+    }
       });
     });
 
