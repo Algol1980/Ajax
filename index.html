@@ -19,6 +19,20 @@
     <script type="text/javascript">
     $(function() {
       $.ajax({
+        url: "samlehtml3.html",
+        success: function (data){
+      $("body").append(data);
+    }
+      });      
+
+      $.ajax({
+        url: "samlehtml2.html",
+        success: function (data){
+      $("body").append(data);
+    }
+      }); 
+
+      $.ajax({
         url: "samlehtml1.html",
         success: function (data){
       $("body").append(data);
