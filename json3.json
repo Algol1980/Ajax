@@ -1,5 +1,5 @@
-{"menu": {
+{
   "id": "file",
   "value": "File",
   "menuitem": "CreateNewDoc()"
-}}
+}
